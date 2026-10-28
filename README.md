@@ -94,6 +94,8 @@ Any client that supports remote MCP servers over Streamable HTTP can use the end
 - "Draft an IT service desk agent that answers from our SOPs and asks before it opens a ticket."
 - "Connect our Postgres database and send me the link to enter the password."
 
+Worked examples, each built and run through this server, with the flow it produced and the result: [examples](examples).
+
 ## About Neblex Integration Fabric
 
 - **Data quality in every flow:** deduplication (exact, Jaro-Winkler, edit distance and Soundex), validation and a quarantine for bad records run as steps inside the flow.
