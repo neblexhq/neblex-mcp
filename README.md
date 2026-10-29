@@ -18,7 +18,7 @@ claude mcp add --transport http neblex https://if.neblex.com/mcp
 
 ### Cursor
 
-Add to `.cursor/mcp.json`:
+Install the [Neblex plugin for Cursor](https://github.com/neblexhq/neblex-cursor-plugin), which sets up this server for you. Or add it yourself to `.cursor/mcp.json`:
 
 ```json
 {
