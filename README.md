@@ -103,7 +103,7 @@ Worked examples, each built and run through this server, with the flow it produc
 - **Data quality in every flow:** deduplication (exact, Jaro-Winkler, edit distance and Soundex), validation and a quarantine for bad records run as steps inside the flow.
 - **Cloud or on-premises:** flows and AI agents run in the cloud or on a single native on-premises runtime inside your network, so records from local systems stay local. AI agents can also use local LLMs and embedding models on the runtime.
 - **Replay from the failed step:** every run keeps a step-level history, and failed runs aren't billed.
-- **300+ connectors**, plus HTTP, SOAP, OData, SFTP and EDI (X12, EDIFACT) over AS2.
+- **[300+ connectors](https://www.neblex.com/integration-fabric/docs/connectors)**, plus HTTP, SOAP, OData, SFTP and EDI (X12, EDIFACT) over AS2.
 - **AI agents** use your own model provider, and any tool can require a person's approval.
 
 There's a free Starter plan with the full platform and 1,000 executions a month, and every plan has unlimited users: [pricing](https://www.neblex.com/integration-fabric/pricing).
