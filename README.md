@@ -1,5 +1,7 @@
 # Neblex MCP Server
 
+[![MCP Badge](https://lobehub.com/badge/mcp/neblexhq-neblex-mcp)](https://lobehub.com/mcp/neblexhq-neblex-mcp)
+
 Remote MCP server for [Neblex Integration Fabric](https://www.neblex.com/integration-fabric), an integration platform (iPaaS). Connect an AI client such as Claude Code, Codex, Cursor or VS Code and build, test and run integrations, workflows, forms, apps, data tables and AI agents in your Neblex workspace, under the same permissions as your own account.
 
 This repository documents the hosted server. There is nothing to install: the server runs at the endpoint below.
