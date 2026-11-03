@@ -6,6 +6,8 @@ This repository documents the hosted server. There is nothing to install: the se
 
 **Endpoint:** `https://if.neblex.com/mcp` (Streamable HTTP, OAuth)
 
+**Plans:** available on every Neblex plan, including the free Starter plan.
+
 **Official MCP Registry:** `io.github.neblexhq/neblex`
 
 ## Connect
@@ -99,7 +101,7 @@ Worked examples, each built and run through this server, with the flow it produc
 ## About Neblex Integration Fabric
 
 - **Data quality in every flow:** deduplication (exact, Jaro-Winkler, edit distance and Soundex), validation and a quarantine for bad records run as steps inside the flow.
-- **Cloud or on-premises:** flows and AI agents run in the cloud or on a single native on-premises runtime inside your network, so records from local systems stay local.
+- **Cloud or on-premises:** flows and AI agents run in the cloud or on a single native on-premises runtime inside your network, so records from local systems stay local. AI agents can also use local LLMs and embedding models on the runtime.
 - **Replay from the failed step:** every run keeps a step-level history, and failed runs aren't billed.
 - **300+ connectors**, plus HTTP, SOAP, OData, SFTP and EDI (X12, EDIFACT) over AS2.
 - **AI agents** use your own model provider, and any tool can require a person's approval.
@@ -116,4 +118,4 @@ There's a free Starter plan with the full platform and 1,000 executions a month,
 
 ## Support
 
-Questions or problems: open an issue in this repository, or ask Matt, the in-product assistant, inside Neblex.
+Questions or problems: open an issue in this repository, email community@neblex.com, or ask Matt, the in-product assistant, inside Neblex. Report security issues privately from this repository's **Security** tab (**Report a vulnerability**), not in a public issue.
